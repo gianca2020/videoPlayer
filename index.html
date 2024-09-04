@@ -13,19 +13,22 @@
         <h1 id="header">Bodhi Cafe</h1>
     </div>
 
+   
     <div class="container">
+         <!--this should be dedicated to the page style-->
     <div class="pages">
         <div class="pageOne">
-            <button onclick="slide()">Next</button>
-            <button onclick="subscribe()">Subscribe</button>
+            <button onclick="slide()">></button>
         </div>
-
+        <button onclick="subscribe()" class="sub">Subscribe</button>
         <div class="pageTwo">
             <p>The video in question</p>
             <button onclick="slide()">prev</button>
-            <button onclick="subscribe()">Subscribe</button>
+            <button onclick="subscribe()" id="sub">Subscribe</button>
             <video autoplay loop controls src="theVideo.mp4"></video>
     </div>
     </div>
 </body>
 </html>
+
+<!--add a feature where there are three little dots, one dedicated to a landing page, another dedicated to a page with the video, and the last on e being an "about me page"-->

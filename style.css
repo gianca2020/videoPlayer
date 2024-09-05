@@ -34,16 +34,44 @@ body{
     display: flex;
     justify-content: center;
     padding: 0;
+    align-items: center;
 }
 
 .pageOne button{
     background: transparent;
     border: none;
     color: white;
-    font-size: 4px;
+    font-size: 44px;
     cursor: pointer;
 }
 
+.sub{
+    /*this is the general look of the button*/
+    background-color: #4e2424;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    /*this is more in regards to where the text will be positioned in the button*/
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*i dont think i needed this lol*/
+    /* margin-bottom: 10px; */
+    /*
+    this is for changing where its potiioned on the page
+    */
+    position: absolute;
+    top: 5px;
+    right: 50px;
+}
 
+.title h1{
+    font-size: 40px;
+    color: rgb(57, 0, 0);
+}
 
 
